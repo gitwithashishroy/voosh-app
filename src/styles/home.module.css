@@ -1,0 +1,165 @@
+.nav{
+    height: 10vh; 
+    display: flex;
+    justify-content: space-between;
+}
+.navLinks{
+  border: 2px solid black;
+  padding: 20px ; 
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.home{
+   
+}
+
+.navLogo{
+   height: 10vh;
+   width: 10%;
+}
+
+
+
+.navLogo img{
+    margin-left:20px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain ; 
+}
+
+.homePageContainer{
+    width: 100%;
+    background-image: url(../static/voosh_bg.webp);
+    background-size:cover ;
+}
+
+.titleContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    padding: 5vw 50px 0;
+}
+
+.title{
+    font-size: 4.5vw;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-top: 5vw;
+}
+
+.btnArrowContainer{
+    margin-top: 5vw;
+    width: 100%;
+}
+
+.registerButton{
+    align-items: center;
+    background-color: #2d66f5;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+.registerButtonText{
+    color: white ; 
+    text-decoration: none ;
+    font-weight: 700;
+}
+
+.registerButton Link div span{
+    color: white;
+    text-decoration: none ;
+}
+
+.arrowImgContainer{
+  
+}
+
+.arrowImgContainer img{
+    height: 20%;
+    margin-left: 50px;
+    width: 20%;
+}
+
+.profileContainer{
+    align-items: center;
+    display: flex;
+    height: 50%; 
+    justify-content:flex-end;
+    position: relative;
+    width: 100%;
+    margin-top: -10%;
+    flex-direction: row;
+}
+
+.profileContainer .threeLines{
+    bottom: 45vw;
+    height: 4vw;
+    position: absolute;
+    right: 45vw;
+    width: 4vw;
+}
+
+.myProfileIcon{
+    margin-bottom: -15vw;
+    width: 45vw;
+}
+
+.outletContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10%;
+    padding: 10px;
+
+}
+
+.outletContainer img{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+@media screen(min-width :900px) {
+    .pageContent{
+        display : flex ;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .outletContainer{
+        margin-bottom: 15%;
+    }
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .profileContainer{
+       display: flex;
+       flex-direction: column;
+    }
+
+    .myProfileIcon{
+        width: 80%;
+        margin-left: 10% ;
+    }
+  }
+
+
+
